@@ -7,12 +7,15 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <section id=PieChart>
+  <section class= "PieChart">
             <!-- <div class= "Food"><p>Food</p></div>
             <div class= "Entertainment"><p>Entertainment</p></div>
             <div class= "Bills"><p>Bills</div>
             <div class= "Clothing"><p>Clothing</p></div> -->
-    
+    <div class="overlay">
+
+      <div class = "container">
+
         <div class= "row">
           <div class="col-md-6"> </div>
           <div class= "main_box">
@@ -21,30 +24,29 @@
             </div>
         </div>
       
-    <div class="count_box">
+        <div class="count_box">
             
           <div class= "form-group">
             <label for="FoodTransaction-input">Food Purchases</label> <!--MAYBE LABEL FOR SHOULD REFERENCE TO TIFF'S CODE-->
-            <input type="number" value = "614" class="FoodTransaction-input form-control"> <!--TYPE = NUMBER FOR TRANSATION AMOUNT-->
+            <input type="number" value = "614" class="FoodTransaction-input form-control" readonly> <!--TYPE = NUMBER FOR TRANSATION AMOUNT-->
 
           <div class= "billEntryForm">
             <label for="billsTransaction-input">Bill Purchases</label>
-            <input type="number" value = "0" name="Bills" class="billsTransaction-input form-control">
+            <input type="number" value = "60" name="Bills" class="billsTransaction-input form-control">
 
           <div class= "entertainmentEntryForm">
             <label for="entertainmentTransactionInput">Entertainment Purchases</label>
-            <input type="number" value = "0" name="entertainment" class="entertainmentTransaction-input form-control">
+            <input type="number" value = "100" name="entertainment" class="entertainmentTransaction-input form-control">
 
           <div class= "clothingEntryForm">
             <label for="clothingTransactionInput">Clothing Purchases</label>
-            <input type="number" value = "0" name="clothing" class="clothingTransaction-input form-control">
+            <input type="number" value = "400" name="clothing" class="clothingTransaction-input form-control">
         </div>
-        </div>
-        </div>
-        </div>
-  </div>
-      
-     <script src="script.js"></script>
+
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="script.js"></script>
 </section>
 </body>
 </html>

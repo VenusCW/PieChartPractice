@@ -1,37 +1,42 @@
 
 body{
-    font-family:"ariel";
-  color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
     text-align: center;
-    font-size: 14px; */
+    font-size: 14px;
   }
-  #PieChart{
-    height:100%;
-    background-color:;
+
+.PieChart{
+    height:1100px;
+    /* background-color: */
    }
-  /* .overlay{
+
+  .overlay{
     background-color: gray;
     height: 1100px;
     padding-top: 200px;
-    padding-bottom: 200px; */
+    padding-bottom: 200px;
   }
-  /* #PieChart .container{
+
+  .PieChart .container{
     background-color: white;
     border-radius:40px;
-    padding:0px */
+    padding:0px
   }
+
   .main_box h1{
     padding: 50px 0px 50px 0px;
     color: black;
     font-size: 25px;
-    
   }
+
   .main_box{
     background-color: white;
     height: 100%;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
   }
+
   .count_box{
     background-color:#182d6e;
     border-bottom-right-radius: 30px;
@@ -40,27 +45,58 @@ body{
     color: white;
     padding: 100px;
   }
-  .form-group{
+
+  .FoodTransaction-input {
+    background-color: rgba(0, 0, 255, 0.554);
+    border: none;
+    color: white;
+  }
+
+.form-control:disabled,
+.form-control[readonly]{
+  background-color: rgba(0, 0, 255, 0.554);
+  opacity: 1;
+}
+
+.billsTransaction-input{
+  background-color: teal;
+  border: none;
+  color: white;
+}
+
+.entertainmentTransaction-input{
+  background-color: turquoise;
+  border: none;
+  color: white;
+}
+
+.clothingTransaction-input {
+  background-color: navy;
+  border: none;
+  color: white;
+}
+
+.form-control:focus{
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+
+/* .form-group{
     background-color:#3546b0;
     border: none;
     color: black;
   }
-  /* .form-control: disabled, */
+
+ 
   .billEntryForm{
       background-color:#ff766b;
       border: none;
       color: white;
-  }
-  .form-control:focus{
-      background-color: transparent;
-      color: white;
-      border: none;
-  }
-  
-  
-  
-  
-  
+  } */
+
+
   
   /* #PieChart{
     width: 100px;
